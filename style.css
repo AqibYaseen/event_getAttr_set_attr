@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+#parentDiv{
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(107, 215, 107);
+}
+#divOne{
+   
+    background-color: grey;
+    width: 80vh;
+    height: 80vh;
+    border: 3px solid black ;
+    display: flex;
+    align-items: flex-end;
+}
+.innerDiv{
+    margin: 3px;
+    width: 20vh;
+    background-color: white;
+    height: 10vh;
+    border: 3px solid black ;
+}
+img{
+    width: 10vh;
+    height: 10vh;
+}
+#mainCon > img{
+    position: absolute;
+    width: 700px;
+    height:600px;
+    bottom: 300px;
+    left: 100px;
+    top: 100px;
+}
