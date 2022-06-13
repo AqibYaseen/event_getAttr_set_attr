@@ -15,7 +15,7 @@
 }
 #divOne{
    
-    background-color: grey;
+    background-color: gray;
     width: 80vh;
     height: 80vh;
     border: 3px solid black ;
@@ -28,8 +28,14 @@
     background-color: white;
     height: 10vh;
     border: 3px solid black ;
+
+}
+.innerDiv :hover{
+    opacity: 100%;   
+    border: 3px solid green;
 }
 img{
+
     width: 10vh;
     height: 10vh;
 }
